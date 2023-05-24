@@ -18,5 +18,4 @@ export class BlogHomeComponent implements OnInit{
   getName($event: string):void{
     this.filterText = $event;
   }
-
 }
